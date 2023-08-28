@@ -1,59 +1,87 @@
-.DS_STORE
-
-/dist/
-/bazel-out
-/integration/bazel/bazel-*
+*~
+*.sw[mnpcod]
 *.log
-/node_modules/
+*.lock
+*.tmp
+*.tmp.*
+log.txt
+*.sublime-project
+*.sublime-workspace
+*.tgz
 
-# CircleCI temporary file for cache key computation.
-# See `save_month_to_file` in `.circleci/config.yml`.
-month.txt
-
-# Include when developing application packages.
-pubspec.lock
-.c9
 .idea/
-.devcontainer/*
-!.devcontainer/README.md
-!.devcontainer/recommended-devcontainer.json
-!.devcontainer/recommended-Dockerfile
-.settings/
-.vscode/launch.json
-.vscode/settings.json
-.vscode/tasks.json
-*.swo
-*.swp
-modules/.settings
-modules/.vscode
-.vimrc
-.nvimrc
+.vscode/
+.sass-cache/
+.versions/
+coverage/
+collection/
+dist/
+dist-transpiled/
+node_modules/
+tmp/
+temp/
+core/theme-builder/
+core/test-components/
+core/css/
+$RECYCLE.BIN/
 
-# Don't check in secret files
-*secret.js
+.DS_Store
+Thumbs.db
+UserInterfaceState.xcuserstate
+.env
 
-# Ignore npm/yarn debug log
-npm-debug.log
-yarn-error.log
+.package.tmp.json
 
-# build-analytics
-.build-analytics
+src/themes/version.scss
+scripts/e2e/webpackEntryPoints.json
+scripts/build/e2e-generated-tsconfig.json
+*.css.ts
 
-# rollup-test output
-/modules/rollup-test/dist/
+stats.json
 
-# User specific bazel settings
-.bazelrc.user
+# demo stuff
+demos/node_modules
+demos/polyfills
+demos/css
+demos/fonts
+demos/src/**/*.js
+demos/src/**/*.map
+demos/src/**/*.ngfactory.ts
+demos/src/**/*.d.ts
+demos/src/**/*.metadata.json
+demos/src/**/*.css.shim.ts
+prerender.html
+prerender-domino.html
+prerender-hydrated.html
+prerender-static.html
 
-# User specific ng-dev settings
-.ng-dev.user*
+# stencil
+packages/react/css/
+packages/vue/css/
+core/components/
+core/css/
+core/hydrate/
+core/loader/
+core/www/
+.stencil/
 
-.notes.md
-baseline.json
+# playwright
+core/test-results/
+core/playwright-report/
+core/**/*-snapshots
 
-# Ignore .history for the xyz.local-history VSCode extension
-.history
+# angular
+packages/angular/css/
+packages/angular/test/build/
+.angular/
 
-# Husky
-.husky/_
-aio/content/examples/.DS_Store
+# vue
+packages/vue/test/build/
+
+# react
+packages/react/test/build/
+
+# react router
+packages/react-router/test/build/
+
+.npmrc
