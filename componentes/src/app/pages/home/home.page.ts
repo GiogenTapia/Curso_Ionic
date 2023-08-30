@@ -26,7 +26,7 @@ export class HomePage implements OnInit {
       redirectTo:'/action-sheet'
     },
     {
-      icon:'game-controller-outline',
+      icon:'alert-circle-outline',
       name: 'Alert',
       redirectTo:'/alert'
     }
