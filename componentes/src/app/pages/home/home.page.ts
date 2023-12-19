@@ -29,6 +29,11 @@ export class HomePage implements OnInit {
       icon:'alert-circle-outline',
       name: 'Alert',
       redirectTo:'/alert'
+    },
+    {
+      icon:'sad-outline',
+      name: 'Avatar',
+      redirectTo:'/avatar'
     }
   ];
 
